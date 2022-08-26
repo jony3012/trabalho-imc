@@ -1,0 +1,73 @@
+	<!doctype html>
+	<html lang=“pt-br”>
+		<head>
+			<title>Calculadora imc</title>
+			<meta charset=“UTF-8”>
+			<script src='scrip.js'></script>
+			<link rel="stylesheet" href="css/estilo.css"></script>
+
+	
+		</head>
+		<body>
+	<center>
+		<header>
+			<h1>jony calculadora imc👨‍💻</h1>
+		</header>
+	</center>
+
+
+
+
+	<center>
+		<div class="container">
+			<form name="f_imc">
+				
+				<label>Altura</label><br>
+				<input type="text" name="f_alt" value="0"><br><br>
+				<label>Peso</label><br>
+				
+				<input type="text" name="f_pes" value="0"><br><br>
+				<input type="button" value="Calcular" onclick="imc()">
+		
+		<label>Resultado:</label>
+		<input type="text" id="z" readonly>
+		
+			</form>
+			<br> 	
+		</div>
+			
+			
+			
+			<table border="1" cellspacing="0">
+				<tr>
+					<th width="200">IMC</th><th width="100">Classificaçao</th><th width="100">Obesidade</th>
+				</tr>
+				<tr>
+					<td>menor q 18.5</td><td>  magreza 🦴 </td><td>  0 </td>
+				</tr>
+				<tr>
+					<td>entre 18.5 e 24.9</td><td> normal 👌 </td><td> 0 </td>
+				</tr>
+				<tr>
+					<td>entre 25.0 e 29.9</td><td> sobrepeso💪</td><td>I</td>
+				</tr>
+				<tr>
+					<td>obesidade</td><td> entre 30.0 e 39.9😲 </td><td>II</td>
+				</tr>
+				<tr>
+					<td>maior que 40<td>obesidade grave☠️<td>III</td>
+				</tr>
+			</table>
+			
+		</center>
+		<footer>
+			<ul>
+				<li>João Miguel</li>
+				<li>SESI / SENAI</li>
+				<li>2B</li>
+		
+			</ul>
+		</footer>
+		
+		</body>
+	</html>
